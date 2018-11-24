@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package taskmanager;
+package taskalert;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author Nikita
  */
- public class Task implements Serializable{        
+ public class Task {        
         String name;
         String description;
         Date date = new Date();
